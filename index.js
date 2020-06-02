@@ -1,5 +1,5 @@
 (async function(){
-  var garage_sections = prompt('Enter the number of garage sections you would like to generate (NOTE: There are 30 individual garage slots per section):');
+  var garage_sections = prompt('Enter the number of garage sections you would like to have in total (NOTE: There are 30 individual garage slots per section):');
 
   function getCookie(name) {
     var value = "; " + document.cookie;
