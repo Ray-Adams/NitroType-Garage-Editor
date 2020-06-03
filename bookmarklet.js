@@ -1,1 +1,1 @@
-javascript:(function(){var e=document.createElement('script');e.type='text/javascript';e.src='https://cdn.jsdelivr.net/gh/Ray-Adams/NitroType-Garage-Editor/index.js';document.getElementsByTagName('body')[0].appendChild(e);})();
+javascript:(function(){var e=document.createElement('script');e.type='text/javascript';e.src='https://cdn.jsdelivr.net/gh/Ray-Adams/NitroType-Garage-Editor/garage_editor.js';document.getElementsByTagName('body')[0].appendChild(e);})();
