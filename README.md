@@ -13,6 +13,9 @@ javascript:(function(){var e=document.createElement('script');e.type='text/javas
 2. Click on the bookmarklet, and a prompt will appear, asking for the amount of garage sections you would like to have in total (NOTE: There are 30 individual garage slots per section).
 3. After answering the prompt, logout of your NitroType account and log back in to see changes.
 
+## Limitations
+The maximum amount of garage sections you can have on one account is **30**.
+
 ## Compatibility
 Browser | Supported
 --------|------------
