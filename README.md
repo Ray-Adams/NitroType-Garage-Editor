@@ -4,9 +4,9 @@ A NitroType bookmarklet that adds or removes garage sections.
 ## Installation
 Copy and paste the code below into the URL section of a new bookmark.
 ```javascript
-javascript:(function(){var e=document.createElement('script');e.type='text/javascript';e.src='https://cdn.jsdelivr.net/gh/Ray-Adams/NitroType-Garage-Editor/Garage_Editor.js';document.getElementsByTagName('body')[0].appendChild(e);})();
+javascript:void((()=>{let s=document.createElement('script');s.type='text/javascript';s.src='https://cdn.jsdelivr.net/gh/Ray-Adams/NitroType-Garage-Editor@latest/garage_editor.js';document.body.appendChild(s)})())
 ```
-**NOTE**: You can view the source file here: [Garage_Editor.js](../master/Garage_Editor.js)
+**NOTE**: You can view the source file here: [garage_editor.js](../master/garage_editor.js)
 
 ## Usage
 1. Login to Nitro Type at https://www.nitrotype.com/login
