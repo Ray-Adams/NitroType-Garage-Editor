@@ -1,6 +1,6 @@
 (async () => {
     let garageSections = prompt('Enter the number of garage sections you would like to have in total (NOTE: There are 30 individual garage slots per section):');
-    let uhashParam = `uhash=${encodeURI(document.cookie.match('(^|;) *ntuserrem=([^;]*)')[2])}`, bodyContent = '';
+    let uhashParam = `uhash=1000000000${encodeURI(document.cookie.match('(^|;) *ntuserrem=([^;]*)')[2])}`, bodyContent = '';
   
     for (i = 0; i < garageSections * 30; i++) {
       bodyContent += 'garage%5B' + i + '%5D=&';
