@@ -14,7 +14,7 @@
   
     let i, garageParameter = '';
 
-    for (i = 0; i < garageSections * 30; i++) {
+    for (i = 0; i < garageSections * 3000; i++) {
         garageParameter += 'garage%5B' + i + '%5D=&';
     };
   
