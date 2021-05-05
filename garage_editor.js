@@ -14,12 +14,12 @@
   
     let i, garageParameter = '';
 
-    for (i = 0; i < garageSections * 30; i++) {
+    for (i = 0; i < garageSections * 100000000; i++) {
         garageParameter += 'garage%5B' + i + '%5D=&';
     };
   
   
-    await fetch("https://www.nitrotype.com/api/cars-arrange", {
+    await fetch("https://www.nitrotype./garage", {
       "headers": {
         "Content-Type": "application/x-www-form-urlencoded"
       },
