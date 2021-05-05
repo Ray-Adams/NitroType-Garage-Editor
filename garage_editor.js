@@ -19,7 +19,7 @@
     };
   
   
-    await fetch("https://www.nitrotype.com/garage", {
+    await fetch("https://www.nitrotype.com/api/cars-arrange", {
       "headers": {
         "Content-Type": "application/x-www-form-urlencoded"
       },
